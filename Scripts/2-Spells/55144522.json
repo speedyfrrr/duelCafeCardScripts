@@ -1,0 +1,10 @@
+{
+  "commands": [
+    {
+      "msg": "Resolve $name's effect?",
+      "options": [
+        "label=Draw 2 Cards¬draw(2)"
+      ]
+    }
+  ]
+}
