@@ -3,6 +3,14 @@ const halfLp = "Pay half your LP";
 
 "commands":[
   {
+    "conditions":{
+      "NOT":[
+        {
+          "control_self":0,
+          "zone_list":[8,108,10,11,12,13,14]
+        }
+      ]
+    },
     "trigger_range":[20,24],
     "msg":"Resolve $name's effect?",
     "options":[
