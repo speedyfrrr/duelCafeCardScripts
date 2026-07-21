@@ -1,11 +1,9 @@
-{
-  "commands": [
-    {
-      "trigger_range": [20,24],
-      "msg": "Pay the cost for $name's effect?",
-      "options": [
-        "label=Pay 2000 LP¬is_cost¬add_exact_lp=-2000"
-      ]
-    }
-  ]
-}
+"commands": [
+  {
+    "trigger_range":[20,24],
+    "msg": "Pay the cost for $name's effect?",
+    "options":[
+      "label=Pay 2000 LP¬is_cost¬add_exact_lp=-2000"
+    ]
+  }
+]
